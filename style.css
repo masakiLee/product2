@@ -1,0 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+img {
+  vertical-align: middle;
+}
+
+.fz-24_lh-42 {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.fz-24_lh-36 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.fz-20_lh-30 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.fz-20_lh-42 {
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.pt-4 {
+  padding-top: 4px;
+}
+
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-27 {
+  padding-top: 27px;
+}
+
+.pt-28 {
+  padding-top: 28px;
+}
+
+.pt-32 {
+  padding-top: 32px;
+}
+
+.pt-56 {
+  padding-top: 56px;
+}
+
+.pb-12 {
+  margin-bottom: 12px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.pb-23 {
+  padding-bottom: 23px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-56 {
+  padding-bottom: 56px;
+}
+
+.pb-68 {
+  padding-bottom: 68px;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 84px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 958px;
+  background: url(./banner.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-style: italic;
+}
+.header .slogan h1 {
+  font-size: 80px;
+  line-height: 108px;
+}
+.header .slogan p:last-of-type {
+  padding-left: 13px;
+}
+.header .slogan .social {
+  display: flex;
+}
+.header .slogan .social li {
+  padding-right: 16px;
+}
+.header .slogan .social li:hover {
+  opacity: 0.5;
+}
+
+.about {
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+}
+.about hr {
+  width: 384px;
+  height: 1px;
+  text-align: center;
+  background-color: #000000;
+  margin: 0 auto;
+  padding: 0;
+}
+.about .school span {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.myBrand {
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding-bottom: 160px;
+}
+.myBrand p:first-of-type {
+  font-style: italic;
+}
+.myBrand .brandImg1 {
+  padding-bottom: 40px;
+}
+.myBrand .brandImg_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otherWork {
+  text-align: center;
+  padding-bottom: 96px;
+}
+.otherWork .workUp,
+.otherWork .workMidden,
+.otherWork .workDown {
+  display: flex;
+  padding-bottom: 48px;
+}
+.otherWork .workUp img,
+.otherWork .workMidden img,
+.otherWork .workDown img {
+  padding-bottom: 16px;
+}
+.otherWork .workUp span,
+.otherWork .workMidden span,
+.otherWork .workDown span {
+  font-style: italic;
+}
+.otherWork .workUp .workImg1,
+.otherWork .workUp .workImg2,
+.otherWork .workUp .workImg4,
+.otherWork .workUp .workImg6,
+.otherWork .workUp .workImg7,
+.otherWork .workMidden .workImg1,
+.otherWork .workMidden .workImg2,
+.otherWork .workMidden .workImg4,
+.otherWork .workMidden .workImg6,
+.otherWork .workMidden .workImg7,
+.otherWork .workDown .workImg1,
+.otherWork .workDown .workImg2,
+.otherWork .workDown .workImg4,
+.otherWork .workDown .workImg6,
+.otherWork .workDown .workImg7 {
+  margin-right: 24px;
+}
+
+.contact {
+  background-color: #000000;
+  padding-bottom: 64px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.contact h2 {
+  padding-top: 64px;
+}
+.contact a {
+  color: #FFFFFF;
+  font-style: italic;
+}
+.contact a:hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */
